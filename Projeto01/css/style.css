@@ -283,3 +283,68 @@ footer{
 .redes-sociais img{
     height: 50px;
 }
+
+/* Responsive */
+
+
+@media screen and (min-width: 800px) {
+    .form{
+        margin-right: 30px;
+        width: 350px;
+    }
+    .input-conteiner input[type=text]{
+        width: 100%;
+        max-width: 320px;
+        
+    }
+    .input-conteiner input[type=mail]{
+        width: 100%;
+        max-width: 320px;
+        height: 55px;
+        border: 1px solid #ccc;
+        margin-top: 8px;
+    }
+    .form input[type=submit]{
+        color: white;
+        font-size:25px;
+        width: 280px;
+        height: 56px;
+        display: inline-block;
+        background-color: #71a7f7;
+        border: 0;
+        border-bottom:2px solid rgb(0, 0, 0);
+        margin-top: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .form p{
+        margin-left: 10px;
+    }
+    .form span{
+        margin-left: 15px;
+    }
+
+    .center{
+        max-width: 1150px;
+    }
+
+    .conteiner-single-item{
+        width: 100%;
+        max-width: calc(33.3% - 6px);
+    }
+    .item-meio{ 
+        height: 330px;
+    }
+    .conteiner-section-itens-sobre{
+        text-align: center;
+    }
+    .redes-sociais{
+        float: left;
+        width: 33.3%;
+        text-align: right;
+    }
+    .redes.sociais ul li a{
+        float: left;
+    }
+    
+} 
